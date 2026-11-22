@@ -230,4 +230,4 @@ Con el servidor levantado (`PORT=3000 node src/interfaces/http/server.ts`):
    ```bash
    curl http://127.0.0.1:3000/api/priority/queue
    curl "http://127.0.0.1:3000/api/governance/audit-logs?leadId=LEAD-100"
-   ```
+   ``` 

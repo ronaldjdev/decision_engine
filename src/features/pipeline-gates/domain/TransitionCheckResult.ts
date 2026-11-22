@@ -9,5 +9,5 @@ export interface TransitionCheckResult {
   readonly missingCondition?: string;
   readonly targetStageId: PipelineStageId;
   readonly conditionsChecked: readonly ConditionCheckRecord[];
-  readonly bypassedByExceptionId?: string;
+  readonly bypassedByExceptionId?: string; 
 }
